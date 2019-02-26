@@ -1,12 +1,10 @@
 function mostrar()
 {
-	var i =0;
-	//alert('iteración while');
-	while(i < 10)
-	{
-      alert(i +1);
+var numero;
 
-      i = i +1;
+	while(numero +1)
+	{
+		
 	}
 
 

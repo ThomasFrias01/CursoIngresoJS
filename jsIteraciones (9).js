@@ -1,33 +1,20 @@
 function mostrar()
 {
 
-/*	var contador=0;
-	// declarar variables
+	var numMayor;
+	var numMinimo;
+	var bandera;
+	var numero;
+
 	
-	var respuesta='si';
+   do
+   {
+   	numero= prompt("ingrese un numero");
+   	numero=parseInt(numero);
+   	}
+   	 
+   while(confirm("¿quiere seguir intentando?"))
 
-	while(respuesta!='no')
-	{
-		
-	
-	}*/
-	var contador=0;
-    var respuesta="si";
-    var numero;
-    var maximo;
-    var minimo;
-
- 
-     while(respuesta!="no")
-     {
-
-     	numero= prompt("ingrese un numero");
-     	if(numero > maximo)
-     	{
-     		maximo= numero;
-     	}
-     	
-     }
-
-
-}//FIN DE LA FUNCIÓN
+ }//FIN DE LA FUNCION 
+   	
+   	
